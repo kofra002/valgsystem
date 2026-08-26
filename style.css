@@ -56,6 +56,35 @@ body {
     font-size: 2vmin;
     color: #0D1B2A;
 }
+
+.klasser {
+    appearance: none;
+    font-family: "Afacad";
+    color: #415A77;
+    border-color: #415A77;
+    border-width: 0.4vmin;
+    border-radius: 10px;
+    margin-top: 0.7vh;
+    width: 31vw;
+    height: 6vh;
+    font-size: 2vmin;
+    padding-left: 1.2vw;
+}
+
+.kodeBoks {
+    appearance: none;
+    border-style: solid;
+    border-color: #415A77;
+    border-width: 0.4vmin;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 29.45vw;
+    height: 5vh;
+    padding-left: 1.2vw;
+    font-size: 1.7vmin;
+    color: red;
+}
+
 .venstre {
     width: 50vw;
     height: 100vh;
@@ -84,18 +113,4 @@ body {
     align-items: center;
     font-size: 2.4vmin;
     letter-spacing: 20%;
-}
-
-.klasser {
-    appearance: none;
-    font-family: "Afacad";
-    color: #415A77;
-    border-color: #415A77;
-    border-width: 0.4vmin;
-    border-radius: 15px;
-    margin-top: 0.7vh;
-    width: 31vw;
-    height: 6vh;
-    font-size: 2vmin;
-    padding-left: 1.2vw;
 }
