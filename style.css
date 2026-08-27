@@ -35,7 +35,7 @@ body {
 .høyre {
     width: 45vw;
     height: 100vh;
-    padding-left: 80px;
+    padding-left: 5.5vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -50,10 +50,10 @@ body {
 }
 
 .loggInn {
-    margin-left: 20px;
+    margin-left: 1.5vw;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 2vmin;
+    font-size: 3vmin;
     color: #0D1B2A;
 }
 
@@ -63,7 +63,7 @@ body {
     color: #415A77;
     border-color: #415A77;
     border-width: 0.4vmin;
-    border-radius: 10px;
+    border-radius: 1.1vmin;
     margin-top: 0.7vh;
     width: 31vw;
     height: 6vh;
@@ -76,13 +76,40 @@ body {
     border-style: solid;
     border-color: #415A77;
     border-width: 0.4vmin;
-    border-radius: 10px;
-    margin-top: 10px;
-    width: 29.45vw;
+    border-radius: 1.1vmin;
+    margin-top: 1vh;
+    width: 29.33vw;
     height: 5vh;
     padding-left: 1.2vw;
     font-size: 1.7vmin;
-    color: red;
+    color: #415A77;
+}
+
+.kodeBoks::placeholder {
+    color: #415A77;
+}
+
+.okKnapp {
+    appearance: none;
+    border-style: none;
+    background-color: #415A77;
+    color: #ffffff;
+    margin-top: 1vh;
+    width: 4.5vw;
+    height: 5.3vh;
+    font-family: "Afacad";
+    font-size: 2.5vmin;
+    border-radius: 1.8vmin;
+}
+
+.okKnapp:active {
+    background-color: #1B263B;
+}
+
+.instruksjoner {
+    color: #0D1B2A;
+    font-size: 3.65vmin;
+    margin-top: 5vh;
 }
 
 .venstre {
@@ -95,7 +122,7 @@ body {
 
 .forsideBilde {
     background-color: #415A77;
-    width: 75vmin;
+    width: 64vmin;
     height: 85vmin;
     margin-top: 4vh;
 }

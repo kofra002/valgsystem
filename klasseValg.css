@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0E1DD;
+}
+
+.anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.afacad {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .mørkeblå {
+    color: #415A77;
+}
+
+.lyseblå {
+    color: #778DA9;
+} */
+
+.tittelBoks {
+    padding-left: 5.5vw;
+    width: 94.5vw;
+    height: 25.2vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.overskrift {
+    font-size: 15.5vmin;
+    color: #0D1B2A;
+    margin: 0;
+    margin-right: 2.7vw;
+}
+
+.klasse {
+    font-size: 15.5vmin;
+    color: #415A77;
+    margin: 0;
+}
+
+.ITellerMP {
+    font-size: 15.5vmin;
+    color: #778DA9;
+    margin: 0;
+}
+
+.valgSection {
+    /* background-color: aqua; */
+    padding-left: 5.5vw;
+    width: 94.5vw;
+    height: 68.8vh;
+}
+
+.bunn {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 6vh;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4vmin;
+    letter-spacing: 20%;
+}

@@ -15,21 +15,31 @@
     <div class="divBoks">
         <div class="høyre">
             <p class="anton overskrift">VALG</p>
+
             <p class="afacadBold loggInn">LOGG INN</p>
-            <select class="klasser" required>
+            <select class="klasser" id="klasse" required>
                 <option>Velg klasse</option>
                 <option value="IMIT">IMIT</option>
                 <option value="IMMP">IMMP</option>
                 <option value="IMSTIT">IMSTIT</option>
                 <option value="IMSTMP">IMSTMP</option>
             </select>
-            <input type="text" class="kodeBoks" placeholder="Koden du fikk fra ..." required>
+            <input type="text" class="kodeBoks" id="kode" placeholder="Koden du fikk fra ..." required>
+            <button type="submit" class="okKnapp" id="okKnapp" onclick="okKnapp()">OK</button>
+
+            <p class="afacad instruksjoner">Steg: <br>
+            1. Velg din klasse og logg inn med <br>
+            koden du har fått. <br>
+            2. Velg kandidaten du stemmer for. <br>
+            3. Send inn svaret ditt.</p>
         </div>
         <div class="venstre">
             <div class="forsideBilde"></div> <!-- PLACEHOLDER -->
         </div>
+
     </div>
     <div class="bunn"><p class="afacad">NETTSIDE LAGET AV AKI, KONRAD, MATHIAS OG ZULIHAN</p></div>
     
+    <script src="script.js"></script>
 </body>
 </html>
