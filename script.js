@@ -22,7 +22,7 @@ function sendSvar(code, candidate) {
     .then(result => {
         console.log("Success:", result)
     })
-    .cath(error => {
+    .catch(error => {
         console.error("Error:", error)
     })
 }
