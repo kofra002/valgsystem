@@ -121,11 +121,9 @@ body {
     align-items: flex-start;
 }
 
-.forsideBilde {
-    background-color: #415A77;
-    width: 64vmin;
-    height: 85vmin;
-    margin-top: 4vh;
+.instruksjoner {
+    display: flex;
+    align-items: center;
 }
 
 .bunn {
