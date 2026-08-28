@@ -69,7 +69,7 @@ body {
 .valgBoks {
     background-color: #778DA9;
     width: 90vw;
-    height: 24vh;
+    height: 16vh;
     border-radius: 3vmin;
     margin-bottom: 6vh;
     display: flex;
@@ -80,7 +80,7 @@ body {
 
 .valgBoks img {
     width: 15vw;
-    height: 24vh;
+    height: 16vh;
     border-radius: 3vmin;
     margin-right: 2.7vw;
 }

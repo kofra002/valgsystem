@@ -28,13 +28,13 @@ function okKnapp() {
     else if (valgtKlasse === "IMSTIT" && 
         kode === "9101112" || kode === "hm." || kode === "kode3"
     ) {
-        window.location.href = "IMMP.html";
+        window.location.href = "IMSTIT.html";
     }
 
     else if (valgtKlasse === "IMSTMP" && 
         kode === "13141516" || kode === "hmm...." || kode === "kode4"
     ) {
-        window.location.href = "IMMP.html";
+        window.location.href = "IMSTMP.html";
     }
 
     else {

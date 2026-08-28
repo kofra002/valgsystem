@@ -100,6 +100,7 @@ body {
     font-family: "Afacad";
     font-size: 2.5vmin;
     border-radius: 1.8vmin;
+    transition: background-color ease 0.3s;
 }
 
 .okKnapp:active {
