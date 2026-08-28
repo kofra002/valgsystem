@@ -9,10 +9,10 @@ function sendSvar(code, candidate) {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(
+        body: JSON.stringify({
             "code": code,
             "kandidat": candidate,
-        )
+        })
     })
     .then(response => {
         if (!response.ok) {
@@ -25,5 +25,27 @@ function sendSvar(code, candidate) {
     })
     .cath(error => {
         console.error("Error:", error)
+    })
+}
+
+
+function okKnapp() {
+    fetch("https://valg.duckdns.org/srv/class", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            "code": kodeValg.value
+        })
+    }).then(response => {
+        if (!response.ok) {
+            throw Error("Uh oh not ok");
+        }
+
+        let klasse = "IM" + response.body.toString().strip().toUpper();
+        
+        window.location.href = "https://valg.duckdns.org/" + klasse;
+
     })
 }
